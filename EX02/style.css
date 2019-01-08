@@ -1,0 +1,23 @@
+.col-sm-4
+{
+  border: 1px solid white;
+  text-align: center;
+  background: #007BFF;
+}
+
+.red
+{
+  background: #dc3545;
+}
+
+.red:first-child
+{
+  border-right: 2px solid white;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .red:first-child
+  {
+    border-bottom: 2px solid white;
+  }
+}
